@@ -6,7 +6,7 @@ const Login = () => {
     return (
       <View>
         <ImageBackground
-          source={require('./src/assets/background.jpg')}
+          source={require('../../assets/background.jpg')}
           resizeMode="cover"
           style={{width:'100%',height:'100%'}}
           >
