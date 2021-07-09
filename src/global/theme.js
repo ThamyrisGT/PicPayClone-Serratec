@@ -7,7 +7,8 @@
   
     fonts: {
       bold: 'Montserrat-ExtraBold',
-      light:'Montserrat-Light'
+      semibold: 'Montserrat-SemiBold',
+      regular:'Montserrat-Regular'
     }
   };
 

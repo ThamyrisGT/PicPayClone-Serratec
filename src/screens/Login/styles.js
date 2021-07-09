@@ -1,27 +1,35 @@
-
 import {StyleSheet} from 'react-native';
 import  theme  from '../../global/theme';
 
 export const styles = StyleSheet.create({
-    container:{
-        flex: 1,
+    container: {
+      flex: 1,
+      alignItems: 'center',
+      padding: 20
+      //backgroundColor:theme.colors.background
     },
-    img:{
-        width:'100%', 
-        height:'110%',
-        backgroundColor:theme.colors.background
+    containerInterno: {
+      flex: 1,
+      justifyContent: 'space-around',
+      alignItems: 'center'
     },
-    containerText:{
-        flex:1,
-        justifyContent:'center',
-        marginHorizontal: 30,
-        marginTop:270
-    
+    containerInternoFundo: {
+      flex: 1,
+      width: '100%',
+      justifyContent: 'flex-end'
     },
-    text:{
-        fontSize: 28,
-        textAlign: "left",
-        fontFamily:theme.fonts.bold,
-        color:theme.colors.secundary
-    }
-});
+    entradaTexto: {
+      minWidth: '100%',
+      borderColor: '#777',
+      borderWidth: 1,
+      borderRadius: 20,
+      paddingHorizontal: 20,
+    },
+    texto: {
+      fontFamily: theme.fonts.semibold,
+      fontSize:20,
+      color: theme.colors.primary,
+      textDecorationLine: 'underline',
+    },
+  });
+

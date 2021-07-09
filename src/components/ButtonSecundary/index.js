@@ -8,6 +8,7 @@ const ButtonSecundary=( props) =>{
         <View style={styles.container}> 
             <TouchableOpacity
             style={styles.button}
+            onPress={props.entrar}
             >
                 <Text style={styles.text}> {props.title} </Text>
             </TouchableOpacity>

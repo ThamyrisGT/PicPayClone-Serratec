@@ -6,10 +6,10 @@ export const styles = StyleSheet.create({
     container:{
         marginTop: 20,
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
     },
     button:{
-        width: '80%',
+        width: '100%',
         backgroundColor:theme.colors.primary,
         borderColor:theme.colors.primary,
         borderWidth: 3,
@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     },
     text:{
         fontSize: 23,
-        fontFamily:theme.fonts.light,
+        fontFamily:theme.fonts.regular,
         textAlign: "center",
         color:theme.colors.secundary
     }
