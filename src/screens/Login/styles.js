@@ -9,18 +9,19 @@ export const styles = StyleSheet.create({
     img:{
         width:'100%', 
         height:'110%',
-        backgroundColor:'#BBBCB7'
+        backgroundColor:theme.colors.background
     },
     containerText:{
         flex:1,
         justifyContent:'center',
         marginHorizontal: 30,
+        marginTop:270
     
     },
     text:{
         fontSize: 28,
-        fontWeight: "bold",
         textAlign: "left",
+        fontFamily:theme.fonts.bold,
         color:theme.colors.secundary
     }
 });

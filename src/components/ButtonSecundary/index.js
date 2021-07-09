@@ -1,9 +1,9 @@
 import React from 'react';
 import {View, Text,TouchableOpacity} from 'react-native';
-import {styles} from '../Button/styles';
+import {styles} from '../ButtonSecundary/styles';
 
 
-const Button=( props) =>{
+const ButtonSecundary=( props) =>{
     return(
         <View style={styles.container}> 
             <TouchableOpacity
@@ -16,4 +16,4 @@ const Button=( props) =>{
 }
 
 
-export default Button;
+export default ButtonSecundary;
