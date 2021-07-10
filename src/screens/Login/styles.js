@@ -5,12 +5,12 @@ export const styles = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: 'center',
-      padding: 20
-      //backgroundColor:theme.colors.background
+      padding: 20,
+      backgroundColor:theme.colors.secundary
     },
     containerInterno: {
       flex: 1,
-      justifyContent: 'space-around',
+      justifyContent: 'space-evenly',
       alignItems: 'center'
     },
     containerInternoFundo: {
@@ -20,10 +20,12 @@ export const styles = StyleSheet.create({
     },
     entradaTexto: {
       minWidth: '100%',
-      borderColor: '#777',
-      borderWidth: 1,
-      borderRadius: 20,
+      borderColor: 'black',
+      borderWidth: 1.5,
+      borderRadius: 25,
       paddingHorizontal: 20,
+      paddingVertical:10,
+      fontSize:20
     },
     texto: {
       fontFamily: theme.fonts.semibold,

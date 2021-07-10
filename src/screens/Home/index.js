@@ -3,7 +3,8 @@ import {View, Text, ImageBackground,StatusBar,SafeAreaView} from 'react-native';
 import { styles } from './styles';
 import Button from '../../components/Button';
 import ButtonSecundary from '../../components/ButtonSecundary';
-import Icon from 'react-native-vector-icons/SimpleLineIcons'
+import Icon from 'react-native-vector-icons/SimpleLineIcons';
+import theme from '../../global/theme';
 
 const Home = ({navigation}) => {
     return (
@@ -25,11 +26,10 @@ const Home = ({navigation}) => {
            </Text>
            <Button
            title='Cadastrar'
-           activeOpacity={0.7}
+           activeOpacity={0.9}
            />
            <ButtonSecundary
            title='Entrar'
-           activeOpacity={false}
            entrar={()=> navigation.navigate('Login')}
            />
           </View>
@@ -37,7 +37,7 @@ const Home = ({navigation}) => {
           <Icon
            name="question" 
            size={25}
-           color='#fff'
+           color={theme.colors.secundary}
           />
           </View>
          

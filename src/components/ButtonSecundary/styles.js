@@ -6,13 +6,13 @@ export const styles = StyleSheet.create({
     container:{
         marginTop: 12,
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
+        borderColor:theme.colors.secundary,
+        borderWidth: 2,
+        borderRadius:15,
     },
     button:{
-        width: '100%',
-        borderColor:theme.colors.secundary,
-        borderWidth: 3,
-        borderRadius:15,
+        width: '100%'
     },
     text:{
         fontFamily: theme.fonts.regular,
