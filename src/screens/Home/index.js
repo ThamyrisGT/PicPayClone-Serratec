@@ -27,6 +27,7 @@ const Home = ({navigation}) => {
            <Button
            title='Cadastrar'
            activeOpacity={0.9}
+           cadastrar={() => navigation.navigate('Register')}
            />
            <ButtonSecundary
            title='Entrar'
