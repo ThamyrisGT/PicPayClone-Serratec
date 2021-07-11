@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 import theme from '../../global/theme';
 
 export const styles = StyleSheet.create({
@@ -8,47 +8,77 @@ export const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: theme.colors.secundary,
   },
-  containerInterno: {
+  title: {
+    fontSize: 24,
+    color: theme.colors.titleblack,
+    fontFamily: theme.fonts.bold,
+  },
+  containerIntern: {
     flex: 1,
     alignItems: 'center',
- 
   },
-  containerInternoFundo: {
+  containerInternLast: {
     flex: 1,
     width: '100%',
     justifyContent: 'flex-end',
-
   },
-  containerInternoFundoInterno: {
+  containerInternFooter: {
     justifyContent: 'space-around',
     marginVertical: '2%',
-    paddingVertical: '5%'
+    paddingVertical: '5%',
   },
-  entradaTexto: {
+  input: {
     minWidth: '100%',
     borderColor: theme.colors.titleblack,
     borderWidth: 1.5,
     borderRadius: 25,
     paddingHorizontal: 20,
     paddingVertical: 10,
-    fontSize:20
+    fontSize: 18,
+  },
+  input2: {
+    minWidth: '100%',
+    borderColor: theme.colors.titleblack,
+    borderWidth: 1.5,
+    borderRadius: 25,
+    paddingHorizontal: 20,
+    paddingVertical: 10,
+    fontSize: 18,
+    borderColor: 'red',
   },
   boxInfo: {
     height: '40%',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginBottom:20
+    marginBottom: 20,
   },
-  texto: {
+  textUnderline: {
     fontFamily: theme.fonts.semibold,
     color: theme.colors.primary,
     textDecorationLine: 'underline',
     textAlign: 'center',
-    fontSize:15,
-    
+    fontSize: 15,
   },
-  titulo: {
-    fontSize: 25,
-    fontWeight: '300'
+  text: {
+    color: theme.colors.titleblack,
+    fontFamily: theme.fonts.regular,
+    textAlign: 'center',
+    fontSize: 14,
+  },
+
+  containerInput: {
+    width: '100%',
+    height: '70%',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+
+  textInfo: {
+    paddingHorizontal: '5%',
+    textAlign: 'center',
+    fontSize: 15,
+    marginTop: 15,
+    color: theme.colors.titleblack,
+    fontFamily: theme.fonts.regular,
   },
 });

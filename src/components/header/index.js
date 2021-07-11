@@ -7,14 +7,14 @@ import theme from '../../global/theme';
 const Header = props => {
   return (
     <View style={styles.container}>
-      <Icon 
-      name="angle-left" 
-      size={40} 
-      color={theme.colors.primary} 
-      onPress={props.voltar}
+      <Icon
+        name="angle-left"
+        size={40}
+        color={theme.colors.primary}
+        onPress={props.voltar}
       />
-        <Text style={styles.text}> {props.text} </Text>
-        <Text style={styles.screen}> {props.screen} </Text>  
+      <Text style={styles.text}> {props.text} </Text>
+      <Text style={styles.screen}> {props.screen} </Text>
     </View>
   );
 };

@@ -6,12 +6,13 @@ import Home from './src/screens/Home';
 import Login from './src/screens/Login';
 import Register from './src/screens/Register';
 import Splash from './src/screens/Splash';
+import ModalView from './src/screens/ModalView';
 
 const Stack = createStackNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
+      <Stack.Navigator initialRouteName="Splash" unmountInactiveRoutes={true}>
         <Stack.Screen
           name="Home"
           component={Home}

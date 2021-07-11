@@ -1,12 +1,11 @@
 import React from 'react';
-import { View, StatusBar, ImageBackground } from 'react-native';
-import styles from './styles';
+import {View, StatusBar, ImageBackground} from 'react-native';
+import {styles} from './styles';
 
-const Splash = ({ navigation }) => {
-
-  setInterval(()=>{
-    navigation.navigate('Home')
-  }, 2000)
+const Splash = ({navigation}) => {
+  setTimeout(() => {
+    navigation.replace('Home');
+  }, 2000);
 
   return (
     <View>
@@ -16,7 +15,7 @@ const Splash = ({ navigation }) => {
         translucent
       />
       <ImageBackground
-        source={require('../../assets/background.jpeg')}
+        source={require('../../assets/splash.jpeg')}
         style={styles.img}
       />
     </View>

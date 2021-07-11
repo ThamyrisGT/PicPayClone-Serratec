@@ -1,13 +1,10 @@
-import React,{useState} from 'react';
+import React from 'react';
 import {Text, View, TextInput, StatusBar} from 'react-native';
 import Button from './../../components/Button';
 import {styles} from './styles';
 import Header from '../../components/header';
 
 const Login = ({navigation}) => {
-  
-  const [isFocused, setIsFocused] = useState(false);
-  
   return (
     <View style={styles.container}>
       <StatusBar hidden={true} translucent />
@@ -16,10 +13,10 @@ const Login = ({navigation}) => {
         screen={'Login'}
         voltar={() => navigation.navigate('Home')}
       />
-      <View style={styles.containerInterno}>
-        <View style={styles.containerInterno}>
+      <View style={styles.containerIntern}>
+        <View style={styles.containerIntern}>
           <TextInput
-            style={styles.entradaTexto}
+            style={styles.input}
             keyboardType="email-address"
             placeholder="E-mail, nome de usuário ou telefone"
             returnKeyType={'next'}
@@ -29,7 +26,7 @@ const Login = ({navigation}) => {
             blurOnSubmit={false}
           />
           <TextInput
-            style={styles.entradaTexto}
+            style={styles.input}
             textContentType="password"
             placeholder="Senha"
             secureTextEntry={true}
@@ -39,12 +36,15 @@ const Login = ({navigation}) => {
             }}
           />
         </View>
-
-        <View style={styles.containerInterno}>
-          <Text style={styles.texto}>Esqueci minha senha</Text>
+        <View style={styles.containerIntern}>
+          <Text
+            style={styles.text}
+            onPress={() => navigation.navigate('ModalView')}>
+            Esqueci minha senha
+          </Text>
         </View>
       </View>
-      <View style={styles.containerInternoFundo}>
+      <View style={styles.containerInternFooter}>
         <Button title="Entrar" activeOpacity={0.7} />
       </View>
     </View>
