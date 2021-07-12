@@ -3,7 +3,7 @@
 <h4>Integrantes do grupo:</h4>
 <ul>
 
-  <li>Thamirys Gama Thurler (https://github.com/ThamyrisGT)
+  <li>Thamyris Gama Thurler (https://github.com/ThamyrisGT)
   <li>Matheus de Paula Vieira (https://github.com/matheusvieira99)
   <li>Alec do Canto (https://github.com/aleccanto)
   <li>Karine Escobar (https://github.com/karinemescobar)
