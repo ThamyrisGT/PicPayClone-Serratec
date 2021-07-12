@@ -7,7 +7,7 @@
   <li>Matheus de Paula Vieira (https://github.com/matheusvieira99)
   <li>Alec do Canto (https://github.com/aleccanto)
   <li>Karine Escobar (https://github.com/karinemescobar)
-  <li>Clayton Andrade
+  <li>Clayton Andrade (https://github.com/andradeClayton)
   <li>Rafael Machado
   <li>Matheus Bento
   
