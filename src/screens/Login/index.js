@@ -37,11 +37,7 @@ const Login = ({navigation}) => {
           />
         </View>
         <View style={styles.containerIntern}>
-          <Text
-            style={styles.text}
-            onPress={() => navigation.navigate('ModalView')}>
-            Esqueci minha senha
-          </Text>
+          <Text style={styles.text}>Esqueci minha senha</Text>
         </View>
       </View>
       <View style={styles.containerInternFooter}>
